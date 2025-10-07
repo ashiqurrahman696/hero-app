@@ -1,2 +1,6 @@
 @import 'tailwindcss';
 @plugin 'daisyui';
+
+.active span{
+    @apply bg-linear-to-r from-[#632ee3] to-[#9f62f2] text-transparent bg-clip-text relative before:absolute before:bottom-0 before:w-full before:h-0.5 before:bg-linear-to-br before:from-[#632ee3] before:to-[#9f62f2];
+}
