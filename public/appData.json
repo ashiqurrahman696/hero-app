@@ -1,0 +1,542 @@
+[
+    {
+        "image": "https://play-lh.googleusercontent.com/l-OQW-Zvagm_2zs_JH6jb8oZRvqsbryen8QOCzPO8iczGUaOHa1cV6tX7m0gyeJg642j=w240-h480-rw",
+        "title": "TaskMaster",
+        "companyName": "Productive Labs",
+        "id": 1,
+        "description": "An intuitive to-do list app for managing daily tasks and projects efficiently.",
+        "size": 42,
+        "reviews": 15200,
+        "ratingAvg": 4.6,
+        "downloads": 1200000,
+        "ratings": [
+            { "name": "1 star", "count": 800 },
+            { "name": "2 star", "count": 1200 },
+            { "name": "3 star", "count": 3000 },
+            { "name": "4 star", "count": 4800 },
+            { "name": "5 star", "count": 7400 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/CAfX7duBXQCCq5XMCx-AmhhT6bxBn1uVdtAiAfURKNBPCNIsi4N1TdkPa6Kgb3uUwaY=w240-h480-rw",
+        "title": "PhotoFusion",
+        "companyName": "Creative Pixels",
+        "id": 2,
+        "description": "A photo editor with AI filters, background removal, and color grading tools.",
+        "size": 85,
+        "reviews": 8800,
+        "ratingAvg": 4.3,
+        "downloads": 950000,
+        "ratings": [
+            { "name": "1 star", "count": 400 },
+            { "name": "2 star", "count": 700 },
+            { "name": "3 star", "count": 1600 },
+            { "name": "4 star", "count": 2900 },
+            { "name": "5 star", "count": 4200 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/XbyPYUvaiayhseYJkxprcSRwnRCm3wtlEQq9SW7eQ-aCaYCbqi3NSweLJgzK_i1u2EY=w240-h480-rw",
+        "title": "FitTrack Pro",
+        "companyName": "WellnessWare",
+        "id": 3,
+        "description": "Track workouts, monitor calories, and follow fitness plans personalized to you.",
+        "size": 63,
+        "reviews": 17300,
+        "ratingAvg": 4.8,
+        "downloads": 2000000,
+        "ratings": [
+            { "name": "1 star", "count": 700 },
+            { "name": "2 star", "count": 1000 },
+            { "name": "3 star", "count": 1800 },
+            { "name": "4 star", "count": 5200 },
+            { "name": "5 star", "count": 8600 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/CmLx_mslkRTk4rZHy8F0o9oyOUn98TxXZVqpHdJgZZ03hqiaEcS2qfzJvrPa6Y_Ei3o=w240-h480-rw",
+        "title": "QuickNote",
+        "companyName": "NoteEase",
+        "id": 4,
+        "description": "A minimalist note-taking app with cloud sync and markdown support.",
+        "size": 28,
+        "reviews": 6900,
+        "ratingAvg": 4.5,
+        "downloads": 640000,
+        "ratings": [
+            { "name": "1 star", "count": 300 },
+            { "name": "2 star", "count": 400 },
+            { "name": "3 star", "count": 900 },
+            { "name": "4 star", "count": 2200 },
+            { "name": "5 star", "count": 3100 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/BqVRH_uCWl9M1yGseY-vkN3GL7uioqL8wOmfa-nPwk5BTZK_q5v3lduMt2pWyjBSkT1B3qjV27UrOaw98413=w240-h480-rw",
+        "title": "MindEase",
+        "companyName": "CalmCore Studios",
+        "id": 5,
+        "description": "A meditation and mindfulness app to help reduce stress and improve sleep.",
+        "size": 57,
+        "reviews": 14100,
+        "ratingAvg": 4.7,
+        "downloads": 1800000,
+        "ratings": [
+            { "name": "1 star", "count": 500 },
+            { "name": "2 star", "count": 800 },
+            { "name": "3 star", "count": 1900 },
+            { "name": "4 star", "count": 4300 },
+            { "name": "5 star", "count": 6600 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/S5cHQc3S-_idZUyHtxxup7PlZ1mr7kjYVkuiB8klEIqm2OdotHkK1Dwyym-HorMDSbc=w240-h480-rw",
+        "title": "TravelMate",
+        "companyName": "JourneySoft",
+        "id": 6,
+        "description": "Plan trips, explore destinations, and manage your itineraries in one place.",
+        "size": 91,
+        "reviews": 9500,
+        "ratingAvg": 4.4,
+        "downloads": 1100000,
+        "ratings": [
+            { "name": "1 star", "count": 600 },
+            { "name": "2 star", "count": 900 },
+            { "name": "3 star", "count": 1500 },
+            { "name": "4 star", "count": 3100 },
+            { "name": "5 star", "count": 3400 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/BxfTCOzSuUGh-NURUHuDpIGjRmOf5OanqwaHgs9MIuucFpTTr7or71ngt3Xd4P0NdMn1=w240-h480-rw",
+        "title": "EduLearn",
+        "companyName": "SmartClass Inc.",
+        "id": 7,
+        "description": "An e-learning platform offering interactive lessons, quizzes, and live tutoring.",
+        "size": 120,
+        "reviews": 19300,
+        "ratingAvg": 4.2,
+        "downloads": 2500000,
+        "ratings": [
+            { "name": "1 star", "count": 1600 },
+            { "name": "2 star", "count": 2100 },
+            { "name": "3 star", "count": 4200 },
+            { "name": "4 star", "count": 4800 },
+            { "name": "5 star", "count": 6600 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/rQb47zMb7mN3PLnazxfJ60n6NMBCyFV5TeSpLmfxymmZbJn0XU4Vl6UbN-i_eN9krA=w240-h480-rw",
+        "title": "GameBooster",
+        "companyName": "NovaPlay Studios",
+        "id": 8,
+        "description": "Optimize your mobile gaming performance and reduce lag instantly.",
+        "size": 37,
+        "reviews": 7200,
+        "ratingAvg": 4.1,
+        "downloads": 800000,
+        "ratings": [
+            { "name": "1 star", "count": 700 },
+            { "name": "2 star", "count": 900 },
+            { "name": "3 star", "count": 1400 },
+            { "name": "4 star", "count": 2200 },
+            { "name": "5 star", "count": 2000 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/y2ZEK0V-Oy_xUG-NRkgbOytF6sZiTGLj6GpyVDBZ8Gnc8C9oV9tgPBDbuxCtMXyF_w=w240-h480-rw",
+        "title": "FinancePro",
+        "companyName": "MoneyMind Ltd.",
+        "id": 9,
+        "description": "Track expenses, create budgets, and manage your finances smartly.",
+        "size": 52,
+        "reviews": 11200,
+        "ratingAvg": 4.6,
+        "downloads": 1300000,
+        "ratings": [
+            { "name": "1 star", "count": 500 },
+            { "name": "2 star", "count": 700 },
+            { "name": "3 star", "count": 1300 },
+            { "name": "4 star", "count": 3200 },
+            { "name": "5 star", "count": 5500 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/yk427PSfOqaU1yrjBTV0q9FNmbGQnvOBu9Ndepopskw1H7QU80l5oGP-oHVTcPvGMEg=w240-h480-rw",
+        "title": "Musicify",
+        "companyName": "WaveTech Media",
+        "id": 10,
+        "description": "Stream millions of songs, create playlists, and discover new artists.",
+        "size": 95,
+        "reviews": 28200,
+        "ratingAvg": 4.8,
+        "downloads": 5000000,
+        "ratings": [
+            { "name": "1 star", "count": 1000 },
+            { "name": "2 star", "count": 1200 },
+            { "name": "3 star", "count": 3000 },
+            { "name": "4 star", "count": 6800 },
+            { "name": "5 star", "count": 16200 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/oC6DnWJc_ssekXpY2aBMKkJumiNOCwm-UVqKehsTfOd294BTfonHPgV8Lkh2JatjNQ=w240-h480-rw",
+        "title": "RecipeBox",
+        "companyName": "KitchenWorks",
+        "id": 11,
+        "description": "Discover thousands of recipes, save favorites, and share your own creations.",
+        "size": 66,
+        "reviews": 9100,
+        "ratingAvg": 4.5,
+        "downloads": 800000,
+        "ratings": [
+            { "name": "1 star", "count": 500 },
+            { "name": "2 star", "count": 700 },
+            { "name": "3 star", "count": 1200 },
+            { "name": "4 star", "count": 3100 },
+            { "name": "5 star", "count": 3600 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/zMLXsAJdXggqSSgJmaMTEP4BNfwrNEVbA5aDh9oHLSumCzMJA8NAOy-WW8nbj2TP84bWGSOPUKeHGUaTuRrDBA=w240-h480-rw",
+        "title": "SecureVault",
+        "companyName": "CyberTrust",
+        "id": 12,
+        "description": "Store passwords, documents, and sensitive data securely with encryption.",
+        "size": 48,
+        "reviews": 5100,
+        "ratingAvg": 4.7,
+        "downloads": 500000,
+        "ratings": [
+            { "name": "1 star", "count": 200 },
+            { "name": "2 star", "count": 300 },
+            { "name": "3 star", "count": 800 },
+            { "name": "4 star", "count": 1600 },
+            { "name": "5 star", "count": 2200 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/xStBcJPuPBtrPnQi8swLwib0wnIQOZp2J7ckVAj7NHXHcJBAg4IiwRbYxAHd4Cj2TQ=w240-h480-rw",
+        "title": "WeatherNow",
+        "companyName": "SkyView Analytics",
+        "id": 13,
+        "description": "Get accurate forecasts, radar maps, and severe weather alerts in real-time.",
+        "size": 50,
+        "reviews": 6700,
+        "ratingAvg": 4.3,
+        "downloads": 920000,
+        "ratings": [
+            { "name": "1 star", "count": 400 },
+            { "name": "2 star", "count": 800 },
+            { "name": "3 star", "count": 1200 },
+            { "name": "4 star", "count": 2000 },
+            { "name": "5 star", "count": 2300 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/-oTmViUlA9IQ5gr0xJFZ9JJM_pKnglmLjZv1FYCWVfVkrOK8JFyzk9GrOGjzZdHqqKVt=w240-h480-rw",
+        "title": "ShopSmart",
+        "companyName": "RetailRocket",
+        "id": 14,
+        "description": "Compare prices, find deals, and earn cashback on your favorite brands.",
+        "size": 78,
+        "reviews": 15800,
+        "ratingAvg": 4.4,
+        "downloads": 1700000,
+        "ratings": [
+            { "name": "1 star", "count": 700 },
+            { "name": "2 star", "count": 1000 },
+            { "name": "3 star", "count": 2200 },
+            { "name": "4 star", "count": 4200 },
+            { "name": "5 star", "count": 7700 }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQT6-iC4--VYx43GaV1Q1EogZ3ixu05edTLyvPtCzsZXB8Dlwf0",
+        "title": "StreamMax",
+        "companyName": "VisionFlix",
+        "id": 15,
+        "description": "Stream movies and TV shows in HD with personalized recommendations.",
+        "size": 110,
+        "reviews": 32400,
+        "ratingAvg": 4.9,
+        "downloads": 8000000,
+        "ratings": [
+            { "name": "1 star", "count": 1200 },
+            { "name": "2 star", "count": 1500 },
+            { "name": "3 star", "count": 3400 },
+            { "name": "4 star", "count": 8900 },
+            { "name": "5 star", "count": 17600 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/AV-LsHXaXCQfaQnQo3RZyidy5I-cPbNmsbLA-9vkDbT2LjvOox7_3nvrQiie6WYC_Hho=w240-h480-rw",
+        "title": "CodeHub",
+        "companyName": "DevSoft Solutions",
+        "id": 16,
+        "description": "A coding platform for learning programming languages interactively.",
+        "size": 82,
+        "reviews": 12500,
+        "ratingAvg": 4.6,
+        "downloads": 1400000,
+        "ratings": [
+            { "name": "1 star", "count": 600 },
+            { "name": "2 star", "count": 900 },
+            { "name": "3 star", "count": 1800 },
+            { "name": "4 star", "count": 3300 },
+            { "name": "5 star", "count": 5900 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/By-jDdLoohbr_UDkMi17l9qlI7Q-ZHD1CDDWRVxZpCVIjYhtKay8Gg75a10EJVo2B2I=w240-h480-rw",
+        "title": "LanguageLink",
+        "companyName": "LinguaTech",
+        "id": 17,
+        "description": "Translate instantly between 100+ languages with voice and text input.",
+        "size": 64,
+        "reviews": 9300,
+        "ratingAvg": 4.5,
+        "downloads": 1200000,
+        "ratings": [
+            { "name": "1 star", "count": 400 },
+            { "name": "2 star", "count": 700 },
+            { "name": "3 star", "count": 1400 },
+            { "name": "4 star", "count": 3000 },
+            { "name": "5 star", "count": 3800 }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSkAmmjNAjTr09dHYcnstnQgDBrzVz0jjwOgICpG9nSyMJcglZ2",
+        "title": "NewsSphere",
+        "companyName": "GlobeMedia",
+        "id": 18,
+        "description": "Stay updated with global news, live coverage, and personalized feeds.",
+        "size": 55,
+        "reviews": 8100,
+        "ratingAvg": 4.1,
+        "downloads": 1000000,
+        "ratings": [
+            { "name": "1 star", "count": 800 },
+            { "name": "2 star", "count": 900 },
+            { "name": "3 star", "count": 1500 },
+            { "name": "4 star", "count": 2100 },
+            { "name": "5 star", "count": 2800 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/Je4K6XIAEdz7yjo3-rNBdyJVhlbzyGgR7mg5-6ggjr6bE0M4QhzRKELB433twesvZA=w240-h480-rw",
+        "title": "Artify Studio",
+        "companyName": "DigitalCanvas",
+        "id": 19,
+        "description": "Create digital paintings, sketches, and illustrations with precision tools.",
+        "size": 134,
+        "reviews": 6400,
+        "ratingAvg": 4.3,
+        "downloads": 750000,
+        "ratings": [
+            { "name": "1 star", "count": 300 },
+            { "name": "2 star", "count": 700 },
+            { "name": "3 star", "count": 1300 },
+            { "name": "4 star", "count": 1800 },
+            { "name": "5 star", "count": 2300 }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRoQPbn0W2cy_Y57bAFRpuwIfy9BW1NdfBRkLy3yE7IEcaI2gVe",
+        "title": "CleanMax",
+        "companyName": "OptimizeTech",
+        "id": 20,
+        "description": "Boost device performance, remove junk files, and improve battery life.",
+        "size": 46,
+        "reviews": 10200,
+        "ratingAvg": 4.4,
+        "downloads": 1500000,
+        "ratings": [
+            { "name": "1 star", "count": 600 },
+            { "name": "2 star", "count": 900 },
+            { "name": "3 star", "count": 1500 },
+            { "name": "4 star", "count": 3100 },
+            { "name": "5 star", "count": 4100 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/kO-Ew8iAi42sF6fdi2FafkbQUu3nEIV7I_PPUAtRechMIh5LTVhw7F7jn5VptROYG0A=w240-h480-rw",
+        "title": "HealthSync",
+        "companyName": "BioTrack Labs",
+        "id": 21,
+        "description": "Connect your wearable devices to track heart rate, steps, and sleep cycles.",
+        "size": 70,
+        "reviews": 8300,
+        "ratingAvg": 4.6,
+        "downloads": 900000,
+        "ratings": [
+            { "name": "1 star", "count": 400 },
+            { "name": "2 star", "count": 700 },
+            { "name": "3 star", "count": 1300 },
+            { "name": "4 star", "count": 2400 },
+            { "name": "5 star", "count": 3500 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/ax25rHzCP1Pken5QI2B0ZjpqWAfR7V44iARHIwAM2J9o3dsrNSYvxd7FeVPj3NoYRZU=w240-h480-rw",
+        "title": "HomeHub",
+        "companyName": "SmartLiving Co.",
+        "id": 22,
+        "description": "Control smart home devices, lighting, and security from one dashboard.",
+        "size": 101,
+        "reviews": 5600,
+        "ratingAvg": 4.2,
+        "downloads": 640000,
+        "ratings": [
+            { "name": "1 star", "count": 500 },
+            { "name": "2 star", "count": 700 },
+            { "name": "3 star", "count": 1000 },
+            { "name": "4 star", "count": 1600 },
+            { "name": "5 star", "count": 1800 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/DgULTlG17t3v_05hXAaReO09Sx5GxP5oi2m4l5xq9uIQ2nnk9U8lrdek9tOjm_BfK6pA=w240-h480-rw",
+        "title": "ChatWave",
+        "companyName": "Connectify Ltd.",
+        "id": 23,
+        "description": "A messaging app for instant chats, voice calls, and file sharing.",
+        "size": 88,
+        "reviews": 25100,
+        "ratingAvg": 4.5,
+        "downloads": 5000000,
+        "ratings": [
+            { "name": "1 star", "count": 1200 },
+            { "name": "2 star", "count": 1400 },
+            { "name": "3 star", "count": 3200 },
+            { "name": "4 star", "count": 7400 },
+            { "name": "5 star", "count": 12400 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/NU6Y7CPhJBCHdMy7KSHPsNMI7zXvEaNyKSuFW6t0JW4ZHLyFdk0Vp3_rWYkFl7vJ1Eg=w240-h480-rw",
+        "title": "Readify",
+        "companyName": "BookNest",
+        "id": 24,
+        "description": "Read eBooks and listen to audiobooks from global bestsellers to indie authors.",
+        "size": 96,
+        "reviews": 11900,
+        "ratingAvg": 4.7,
+        "downloads": 1700000,
+        "ratings": [
+            { "name": "1 star", "count": 600 },
+            { "name": "2 star", "count": 900 },
+            { "name": "3 star", "count": 1800 },
+            { "name": "4 star", "count": 3400 },
+            { "name": "5 star", "count": 5200 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/ugwF5x2a1ElYB8RSBBVeGCUeToimLL-2LAZFq-IpvR5T54nOU4sN4-CQNOOLrquT87E=w240-h480-rw",
+        "title": "EcoTrack",
+        "companyName": "GreenTech Systems",
+        "id": 25,
+        "description": "Monitor your carbon footprint and discover ways to live sustainably.",
+        "size": 59,
+        "reviews": 5100,
+        "ratingAvg": 4.3,
+        "downloads": 540000,
+        "ratings": [
+            { "name": "1 star", "count": 200 },
+            { "name": "2 star", "count": 400 },
+            { "name": "3 star", "count": 900 },
+            { "name": "4 star", "count": 1600 },
+            { "name": "5 star", "count": 2000 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/YZvXomJAvWLj1W0GS-d9dt16YebFgcSJje-BWJN734GPK5UmktJYgFj7DaWwThWDUDs=w240-h480-rw",
+        "title": "StudyMate",
+        "companyName": "EduVerse",
+        "id": 26,
+        "description": "AI-powered flashcards, study planners, and progress tracking tools.",
+        "size": 72,
+        "reviews": 8700,
+        "ratingAvg": 4.8,
+        "downloads": 1100000,
+        "ratings": [
+            { "name": "1 star", "count": 300 },
+            { "name": "2 star", "count": 400 },
+            { "name": "3 star", "count": 1000 },
+            { "name": "4 star", "count": 2500 },
+            { "name": "5 star", "count": 4500 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/vpZbu6KacCleg7tIMNhhoW-Y5wdAkLXKkbQDGQs13E_LAhVUxHe73sPOZBVBpZtU2Bc=w240-h480-rw",
+        "title": "DriveSmart",
+        "companyName": "AutoTrack Solutions",
+        "id": 27,
+        "description": "Track driving habits, fuel usage, and get safety insights on your trips.",
+        "size": 80,
+        "reviews": 7600,
+        "ratingAvg": 4.4,
+        "downloads": 870000,
+        "ratings": [
+            { "name": "1 star", "count": 400 },
+            { "name": "2 star", "count": 800 },
+            { "name": "3 star", "count": 1400 },
+            { "name": "4 star", "count": 2500 },
+            { "name": "5 star", "count": 2500 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/_7GB2C2IoLzuiGH5udxcYV3P0oRyeLSO-vkcI5J7Wr0GU_8-OqotS2kd1_MHjRQaglc=w240-h480-rw",
+        "title": "PetCare",
+        "companyName": "FurryFriends Inc.",
+        "id": 28,
+        "description": "Keep track of pet vaccinations, feeding schedules, and vet appointments.",
+        "size": 53,
+        "reviews": 4900,
+        "ratingAvg": 4.6,
+        "downloads": 560000,
+        "ratings": [
+            { "name": "1 star", "count": 200 },
+            { "name": "2 star", "count": 300 },
+            { "name": "3 star", "count": 700 },
+            { "name": "4 star", "count": 1600 },
+            { "name": "5 star", "count": 2100 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/wSioLM26VRBVAJzXO_PlT8fhn4f7YOpZHy1aJqaZ7aHng-BUhXoyiK3UBj-DmYNUPMFeiy8kwAnhk52ZXElgSw=w240-h480-rw",
+        "title": "MarketPulse",
+        "companyName": "FinEdge Analytics",
+        "id": 29,
+        "description": "Track live stocks, crypto, and forex markets with smart alerts.",
+        "size": 68,
+        "reviews": 13400,
+        "ratingAvg": 4.5,
+        "downloads": 2200000,
+        "ratings": [
+            { "name": "1 star", "count": 700 },
+            { "name": "2 star", "count": 1000 },
+            { "name": "3 star", "count": 2100 },
+            { "name": "4 star", "count": 3800 },
+            { "name": "5 star", "count": 5800 }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/3WYiw_qyArAn9EAfNxc1QrrEod-92Pj2AC6v6tRXtcRz_Mihuv0qPKV4sHZwCW7AeA=w240-h480-rw",
+        "title": "VoiceNote Pro",
+        "companyName": "AudioSoft",
+        "id": 30,
+        "description": "Record voice notes, auto-transcribe them, and organize your recordings easily.",
+        "size": 40,
+        "reviews": 6200,
+        "ratingAvg": 4.7,
+        "downloads": 700000,
+        "ratings": [
+            { "name": "1 star", "count": 200 },
+            { "name": "2 star", "count": 300 },
+            { "name": "3 star", "count": 800 },
+            { "name": "4 star", "count": 1700 },
+            { "name": "5 star", "count": 3200 }
+        ]
+    }
+]
