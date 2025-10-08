@@ -1,10 +1,11 @@
 import { FaStar } from "react-icons/fa6";
 import { LuDownload } from "react-icons/lu";
+import { Link } from "react-router";
 
 const AppCard = ({app}) => {
     const {id, image, title, downloads, ratingAvg} = app;
     return (
-        <div className="card bg-base-100 shadow-sm">
+        <Link to={`/apps/${id}`} className="card bg-base-100 shadow-sm">
             <figure className="px-3 pt-3">
                 <img
                     src={image}
@@ -24,7 +25,7 @@ const AppCard = ({app}) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </Link>
     );
 };
 
