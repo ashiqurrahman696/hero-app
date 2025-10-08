@@ -6,7 +6,7 @@ const Apps = () => {
     return (
         <div className="bg-neutral-100 px-4 py-10 text-[#001931]">
             <div className="w-full max-w-7xl mx-auto">
-                <h2 className="text-5xl font-bold text-center mb-3">Out All Applications</h2>
+                <h2 className="text-5xl font-bold text-center mb-3">Our All Applications</h2>
                 <p className="text-center text-[#627382] mb-10">Explore All Apps on the Market developed by us. We code for Millions</p>
                 <div className="flex justify-between items-center mb-10">
                     <h4 className="text-2xl font-semibold">({apps.length}) Apps Found</h4>
