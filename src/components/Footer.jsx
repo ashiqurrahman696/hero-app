@@ -6,7 +6,7 @@ import { FaFacebook, FaLinkedinIn } from 'react-icons/fa6';
 const Footer = () => {
     return (
         <footer className="bg-[#001931] text-white">
-            <div className="footer justify-between sm:footer-horizontal  p-10">
+            <div className="footer justify-between sm:footer-horizontal  py-10 max-w-7xl mx-auto">
                 <aside className="flex items-center">
                     <img src={logo} alt="Logo" className="w-10" />
                     <p className="font-semibold">HERO.IO</p>
