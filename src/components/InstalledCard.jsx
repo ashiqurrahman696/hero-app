@@ -5,7 +5,7 @@ const InstalledCard = ({installed, uninstallApp}) => {
     const {id, image, title, downloads, size, ratingAvg} = installed;
     return (
         <div className="bg-base-100 p-4 rounded flex max-sm:flex-col items-center gap-4">
-            <img src={image} alt={title} className="w-20 rounded" />
+            <img src={image} alt={title} className="max-sm:w-full w-20 rounded" />
             <div className="flex justify-between items-center max-sm:flex-col gap-4 w-full">
                 <div>
                     <h6 className="text-lg mb-3">{title}</h6>
