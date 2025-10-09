@@ -8,7 +8,7 @@ const InstalledCard = ({installed, uninstallApp}) => {
             <img src={image} alt={title} className="max-sm:w-full w-20 rounded" />
             <div className="flex justify-between items-center max-sm:flex-col gap-4 w-full">
                 <div>
-                    <h6 className="text-lg mb-3">{title}</h6>
+                    <h6 className="max-sm:text-center text-lg mb-3">{title}</h6>
                     <div className="flex gap-4 flex-wrap">
                         <div className="flex items-center gap-1 text-[#00d390] ">
                             <LuDownload />
