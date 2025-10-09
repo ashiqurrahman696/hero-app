@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Loading from "../components/Loading";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { ToastContainer } from "react-toastify";
 
 const MainLayout = () => {
     const location = useLocation();
@@ -18,6 +19,7 @@ const MainLayout = () => {
                     <Navbar />
                     <Outlet />
                     <Footer />
+                    <ToastContainer/>
                 </div>
             }
         </>

@@ -4,13 +4,24 @@ import downloadIcon from "../assets/icon-downloads.png";
 import ratingIcon from "../assets/icon-ratings.png";
 import reviewIcon from "../assets/icon-review.png"
 import { Bar, BarChart, CartesianGrid, ComposedChart, Legend, Rectangle, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+import { useEffect, useMemo, useState } from "react";
+import { addToInstalledApps, getInstalledApps } from "../utils/localStorage";
+import { toast } from "react-toastify";
 
 const AppDetail = () => {
     const {appId} = useParams();
     const {apps, loading, error} = useApps();
+    const [installed, setInstalled] = useState(false);
     const singleApp = apps.find(app => app.id === Number(appId));
-    if(loading) return <p>Loading...</p>
-    const {image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings} = singleApp;
+    const {id, image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings} = singleApp || {};
+    const installedStorage = getInstalledApps();
+    const singleInstalled = installedStorage.includes(id);
+    console.log(installedStorage, singleInstalled);
+    const installApp = id => {
+        setInstalled(true);
+        addToInstalledApps(id);
+        toast.success(`Wow!! ${title} installed successfully`)
+    }
     return (
         <div className="bg-neutral-100 px-4 py-10 text-[#001931]">
             <div className="w-full max-w-7xl mx-auto">
@@ -37,7 +48,7 @@ const AppDetail = () => {
                                 <h2 className="text-5xl font-extrabold">{reviews/1000}K</h2>
                             </div>
                         </div>
-                        <button className="btn bg-[#00d390] text-white rounded-md">Install Now ({size} MB)</button>
+                        <button onClick={()=>installApp(id)} disabled={singleInstalled} className="btn bg-[#00d390] text-white rounded-md">{singleInstalled ? "Installed" : `Install Now (${size} MB)`}</button>
                     </div>
                 </div>
                 <hr className="text-[#c4c9ce] my-6" />
