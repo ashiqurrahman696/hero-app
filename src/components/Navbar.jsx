@@ -20,7 +20,7 @@ const Navbar = () => {
                     </div>
                     <Link to="/" className="flex items-center gap-1">
                         <img src={logo} alt="logo" className="w-10" />
-                        <span className="font-semibold text-2xl bg-linear-to-br from-[#632ee3] to-[#9f62f2] text-transparent bg-clip-text">HERO.IO</span>
+                        <span className="font-semibold text-2xl bg-linear-to-br from-[#632ee3] to-[#9f62f2] text-transparent bg-clip-text max-sm:hidden">HERO.IO</span>
                     </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
