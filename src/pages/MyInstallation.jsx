@@ -1,7 +1,8 @@
-import { getInstalledApps } from "../utils/localStorage";
+import { getInstalledApps, removeFromInstalledApps } from "../utils/localStorage";
 import useApps from "../hooks/useApps";
 import { useEffect, useState } from "react";
 import InstalledCard from "../components/InstalledCard";
+import { toast } from "react-toastify";
 
 const MyInstallation = () => {
     const {apps, loading, error} = useApps();
@@ -22,6 +23,13 @@ const MyInstallation = () => {
         }
         setInstalledApps(sorted);
     }, [sortOrder]);
+    const uninstallApp = id => {
+        const filtered = installedApps.find(app => app.id === id);
+        const {title} = filtered;
+        removeFromInstalledApps(id);
+        setInstalledApps(prev => prev.filter(list => list.id !== id));
+        toast(`${title} Un-installed From Your Device`);
+    }
     return (
         <div className="bg-neutral-100 px-4 py-10 text-[#001931]">
             <div className="w-full max-w-7xl mx-auto">
@@ -36,7 +44,7 @@ const MyInstallation = () => {
                     </select>
                 </div>
                 <div className="space-y-5">
-                    {installedApps.map(installed => <InstalledCard key={installed.id} installed={installed} />)}
+                    {installedApps.map(installed => <InstalledCard key={installed.id} installed={installed} uninstallApp={uninstallApp} />)}
                 </div>
             </div>
         </div>

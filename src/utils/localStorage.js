@@ -20,4 +20,10 @@ const addToInstalledApps = id => {
     saveInstalledApp(newInstalled);
 }
 
-export {getInstalledApps, addToInstalledApps};
+const removeFromInstalledApps = id => {
+    const installedData = getInstalledApps();
+    const remainingInstalled = installedData.filter(installId => installId !== id);
+    saveInstalledApp(remainingInstalled);
+}
+
+export {getInstalledApps, addToInstalledApps, removeFromInstalledApps};

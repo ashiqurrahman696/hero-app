@@ -1,8 +1,8 @@
 import { FaStar } from "react-icons/fa6";
 import { LuDownload } from "react-icons/lu";
 
-const InstalledCard = ({installed}) => {
-    const {image, title, downloads, size, ratingAvg} = installed;
+const InstalledCard = ({installed, uninstallApp}) => {
+    const {id, image, title, downloads, size, ratingAvg} = installed;
     return (
         <div className="bg-base-100 p-4 rounded flex max-sm:flex-col items-center gap-4">
             <img src={image} alt={title} className="w-20 rounded" />
@@ -21,7 +21,7 @@ const InstalledCard = ({installed}) => {
                         <p className="text-[#627382]">{size} MB</p>
                     </div>
                 </div>
-                <button className="btn bg-[#00d390] text-white rounded-md">Uninstall</button>
+                <button onClick={()=>uninstallApp(id)} className="btn bg-[#00d390] text-white rounded-md">Uninstall</button>
             </div>
         </div>
     );
