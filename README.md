@@ -16,7 +16,7 @@ HERO.IO is a modern web application platform that showcases and catalogs mobile 
 The application is built using modern web technologies:
 
 ### Core Framework
-- **React JS (18+)**: A powerful JavaScript library for building user interfaces with component-based architecture
+- **React JS (19+)**: A powerful JavaScript library for building user interfaces with component-based architecture
 - **Vite**: Next-generation frontend tooling that offers lightning-fast build times and modern development experience
 
 ### Styling and UI
@@ -25,7 +25,7 @@ The application is built using modern web technologies:
 - **React Icons**: A comprehensive library of popular icon packs as React components
 
 ### Routing and Navigation
-- **React Router (v6)**: Enables dynamic routing in the application with features like:
+- **React Router (v7)**: Enables dynamic routing in the application with features like:
   - Client-side routing
   - Nested routes
   - Route parameters
