@@ -5,7 +5,7 @@ import logo from '../assets/logo.png';
 
 const Navbar = () => {
     return (
-        <div className="bg-base-100 py-2 border-b border-[#e9e9e9]">
+        <div className="bg-base-100 py-2 border-b border-[#e9e9e9] sticky top-0 z-10">
             <div className="navbar max-w-7xl mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
