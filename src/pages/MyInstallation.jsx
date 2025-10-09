@@ -44,7 +44,7 @@ const MyInstallation = () => {
                     </select>
                 </div>
                 <div className="space-y-5">
-                    {installedApps.map(installed => <InstalledCard key={installed.id} installed={installed} uninstallApp={uninstallApp} />)}
+                    {installedApps.length === 0 ? <h2 className="col-span-full text-center text-5xl font-bold">No Apps Installed</h2> : installedApps.map(installed => <InstalledCard key={installed.id} installed={installed} uninstallApp={uninstallApp} />)}
                 </div>
             </div>
         </div>
