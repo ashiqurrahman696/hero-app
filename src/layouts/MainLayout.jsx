@@ -15,9 +15,11 @@ const MainLayout = () => {
     return (
         <>
             {loading ? <Loading/> : 
-                <div className="font-inter">
+                <div className="font-inter flex flex-col min-h-screen">
                     <Navbar />
-                    <Outlet />
+                    <div className="flex-1 bg-neutral-100">
+                        <Outlet />
+                    </div>
                     <Footer />
                     <ToastContainer/>
                 </div>
