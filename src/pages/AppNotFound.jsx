@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import appError from "../assets/App-Error.png"
+import NotFoundBtns from "../components/NotFoundBtns";
 
 const AppNotFound = () => {
     return (
@@ -8,11 +9,7 @@ const AppNotFound = () => {
                 <img src={appError} className="mx-auto" />
                 <h2 className="text-5xl font-bold text-center">OOPS!! APP NOT FOUND</h2>
                 <p className="text-center text-[#627382]">The App you are requesting is not found on our system. Please try another apps.</p>
-                <div className="text-center">
-                    <Link to="/" className="btn text-white bg-linear-to-br from-[#632ee3] to-[#9f62f2] rounded-md px-8 py-6">
-                        <span className="text-lg">Go Back!</span>
-                    </Link>
-                </div>
+                <NotFoundBtns/>
             </div>
         </div>
     );
