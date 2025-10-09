@@ -57,7 +57,7 @@ const AppDetail = () => {
                             </div>
                         </div>
                         <hr className="text-[#c4c9ce] my-6" />
-                        <div className="h-100">
+                        <div className="h-70">
                             <ResponsiveContainer width="100%" height="100%">
                                 <ComposedChart
                                     layout="vertical"
