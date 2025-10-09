@@ -29,7 +29,7 @@ const AppDetail = () => {
                 <div className="bg-neutral-100 px-4 py-10 text-[#001931]">
                     <div className="w-full max-w-7xl mx-auto">
                         <div className="flex max-md:flex-col items-center gap-5">
-                            <img src={image} alt={title} className="bg-base-100 size-[350px] shadow-md" />
+                            <img src={image} alt={title} className="bg-base-100 w-[350px] shadow-md" />
                             <div className="space-y-4 w-full">
                                 <h3 className="text-3xl font-bold">{title}</h3>
                                 <p className="text-[#627382]">Developed by <span className="bg-linear-to-br from-[#632ee3] to-[#9f62f2] text-transparent bg-clip-text font-semibold">{companyName}</span></p>
