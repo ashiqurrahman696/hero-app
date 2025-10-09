@@ -31,24 +31,26 @@ const AppDetail = () => {
                         <h3 className="text-3xl font-bold">{title}</h3>
                         <p className="text-[#627382]">Developed by <span className="bg-linear-to-br from-[#632ee3] to-[#9f62f2] text-transparent bg-clip-text font-semibold">{companyName}</span></p>
                         <hr className="text-[#c4c9ce]" />
-                        <div className="flex max-sm:flex-col gap-8">
+                        <div className="flex max-sm:flex-col max-sm:items-center max-sm:text-center gap-8">
                             <div className="space-y-2">
-                                <img src={downloadIcon} alt="download icon" />
+                                <img src={downloadIcon} alt="download icon" className="max-sm:mx-auto" />
                                 <p>Downloads</p>
                                 <h2 className="text-5xl font-extrabold">{downloads >= 1000000 ? `${downloads / 1000000}M` : `${downloads / 1000}K`}</h2>
                             </div>
                             <div className="space-y-2">
-                                <img src={ratingIcon} alt="download icon" />
+                                <img src={ratingIcon} alt="rating icon" className="max-sm:mx-auto" />
                                 <p>Average Ratings</p>
                                 <h2 className="text-5xl font-extrabold">{ratingAvg}</h2>
                             </div>
                             <div className="space-y-2">
-                                <img src={reviewIcon} alt="download icon" />
+                                <img src={reviewIcon} alt="review icon" className="max-sm:mx-auto" />
                                 <p>Total Reviews</p>
                                 <h2 className="text-5xl font-extrabold">{reviews/1000}K</h2>
                             </div>
                         </div>
-                        <button onClick={()=>installApp(id)} disabled={singleInstalled} className="btn bg-[#00d390] text-white rounded-md">{singleInstalled ? "Installed" : `Install Now (${size} MB)`}</button>
+                        <div className="max-sm:text-center">
+                            <button onClick={() => installApp(id)} disabled={singleInstalled} className="btn bg-[#00d390] text-white rounded-md">{singleInstalled ? "Installed" : `Install Now (${size} MB)`}</button>
+                        </div>
                     </div>
                 </div>
                 <hr className="text-[#c4c9ce] my-6" />
