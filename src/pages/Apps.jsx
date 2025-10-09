@@ -1,13 +1,21 @@
-import { useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import AppCard from "../components/AppCard";
 import useApps from "../hooks/useApps";
+import logo from '../assets/logo.png';
 
 const Apps = () => {
-    const {apps, loading} = useApps();
+    const {apps} = useApps();
     const [search, setSearch] = useState("");
+    const [loading, setLoading] = useState(false);
+    const [filteredApps, setFilteredApps] = useState([]);
     const term = search.trim().toLowerCase();
-    const filteredApps = useMemo(() => {
-        return apps.filter(app => app.title.toLowerCase().includes(term));
+    useEffect(() => {
+        setLoading(true);
+        setTimeout(() => {
+            const filtered = apps.filter(app => app.title.toLowerCase().includes(term));
+            setFilteredApps(filtered);
+            setLoading(false);
+        }, 400);
     }, [apps, term]);
     return (
         <div className="bg-neutral-100 px-4 py-10 text-[#001931]">
@@ -32,9 +40,10 @@ const Apps = () => {
                         <input type="search" onInput={(e) => setSearch(e.target.value)} placeholder="Search Apps" />
                     </label>
                 </div>
-                <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mb-10">
+                {loading ? <img src={logo} alt="logo" className="mx-auto mt-6 w-40 animate-spin"/> : <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mb-10">
                     {filteredApps.length === 0 ? <h2 className="col-span-full text-center text-5xl font-bold">No Apps Found</h2> : filteredApps.map(app => <AppCard key={app.id} app={app} />)}
-                </div>
+                </div>}
+                
             </div>
         </div>
     );
