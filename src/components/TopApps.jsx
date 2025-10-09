@@ -3,7 +3,7 @@ import useApps from "../hooks/useApps";
 import AppCard from "./AppCard";
 
 const TopApps = () => {
-    const {apps, loading, error} = useApps();
+    const {apps} = useApps();
     const featured = apps.slice(0, 8);
     
     return (

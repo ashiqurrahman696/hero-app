@@ -3,15 +3,15 @@ import useApps from "../hooks/useApps";
 import downloadIcon from "../assets/icon-downloads.png";
 import ratingIcon from "../assets/icon-ratings.png";
 import reviewIcon from "../assets/icon-review.png"
-import { Bar, BarChart, CartesianGrid, ComposedChart, Legend, Rectangle, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
-import { useEffect, useMemo, useState } from "react";
+import { Bar, CartesianGrid, ComposedChart, Legend, Rectangle, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+import { useState } from "react";
 import { addToInstalledApps, getInstalledApps } from "../utils/localStorage";
 import { toast } from "react-toastify";
 import Loading from "../components/Loading";
 
 const AppDetail = () => {
     const {appId} = useParams();
-    const {apps, loading, error} = useApps();
+    const {apps, loading} = useApps();
     const [installed, setInstalled] = useState(false);
     if(loading) return;
     const singleApp = apps.find(app => app.id === Number(appId));

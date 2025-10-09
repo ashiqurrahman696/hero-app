@@ -5,7 +5,7 @@ import InstalledCard from "../components/InstalledCard";
 import { toast } from "react-toastify";
 
 const MyInstallation = () => {
-    const {apps, loading, error} = useApps();
+    const {apps} = useApps();
     const [installedApps, setInstalledApps] = useState([]);
     const [sortOrder, setSortOrder] = useState("none")
     useEffect(() => {
