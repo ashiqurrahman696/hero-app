@@ -41,7 +41,7 @@ const Apps = () => {
                     </label>
                 </div>
                 {loading ? <img src={logo} alt="logo" className="mx-auto mt-6 w-40 animate-spin"/> : <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mb-10">
-                    {filteredApps.length === 0 ? <h2 className="col-span-full text-center text-5xl font-bold">No Apps Found</h2> : filteredApps.map(app => <AppCard key={app.id} app={app} />)}
+                    {filteredApps.length === 0 ? <h2 className="col-span-full text-center text-5xl font-bold">No App Found</h2> : filteredApps.map(app => <AppCard key={app.id} app={app} />)}
                 </div>}
                 
             </div>
