@@ -18,7 +18,6 @@ const AppDetail = () => {
     const {id, image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings} = singleApp;
     const installedStorage = getInstalledApps();
     const singleInstalled = installedStorage.includes(id);
-    console.log(installedStorage, singleInstalled);
     const installApp = id => {
         setInstalled(true);
         addToInstalledApps(id);
